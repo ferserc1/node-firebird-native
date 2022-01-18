@@ -37,6 +37,8 @@
 #pragma hdrstop
 #endif
 
+#include <cstring>
+
 using namespace ibpp_internals;
 
 //	(((((((( OBJECT INTERFACE IMPLEMENTATION ))))))))
