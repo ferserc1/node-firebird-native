@@ -8,7 +8,10 @@
     "doc": "doc"
   },
   "scripts": {
-    "build": "node-gyp rebuild",
+    "build": "node-gyp -j 32 build",
+    "build:dev": "node-gyp -j 32 build --debug",
+    "rebuild": "node-gyp -j 32 rebuild",
+    "rebuild:dev": "node-gyp -j 32 rebuild --debug",
     "clean": "node-gyp clean"
   },
   "repository": {
